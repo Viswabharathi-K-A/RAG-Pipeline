@@ -112,7 +112,8 @@ Answer:
 
 The final output is grounded in your private documents.
 
-▶️ How to Run the Project
+▶️ How to Run the Project:
+
 1️⃣ Create & activate a virtual environment
 uv venv
 source .venv/bin/activate        # Linux/Mac
@@ -123,38 +124,25 @@ uv add -r requirements.txt
 
 3️⃣ Launch Jupyter
 jupyter notebook
-
-
 or
-
 jupyter lab
 
 4️⃣ Add your PDFs
-
 Place your files in:
-
 data/pdfs/
 
 5️⃣ Run RAG_pipeline.ipynb
 
 The notebook will:
-
-Extract text
-
-Create chunks
-
-Generate embeddings
-
-Populate ChromaDB
-
-Accept your queries
-
-Retrieve relevant context
-
-Produce an LLM-powered response
+Extract text <br>
+Create chunks <br>
+Generate embeddings <br>
+Populate ChromaDB <br>
+Accept your queries <br>
+Retrieve relevant context <br>
+Produce an LLM-powered response <br>
 
 📦 Requirements
-
 Example requirements.txt:
 
 langchain
@@ -180,4 +168,4 @@ python-dotenv
 
 🧪 End-to-end RAG system for experimentation
 
-✨ Ideal for students & beginners learning RAG
+
